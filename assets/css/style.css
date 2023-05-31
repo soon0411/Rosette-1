@@ -3595,7 +3595,7 @@ header{
     height: 100%;
     object-fit: cover;
   }
-
+  .tile-p{color:var(--primary-color3)}
 
 /**/
 
