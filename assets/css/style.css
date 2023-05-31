@@ -8,9 +8,7 @@
 @import "shortcodes.css";
 @import "responsive.css";
 @import "animate.css";
-@import "jquery.fancybox.min.css";
 @import "font-awesome.css";
-@import "swiper-bundle.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "bootstrap.css";
 /**
@@ -1478,7 +1476,7 @@ header{
 
 .header_1 #main-nav {
     position: absolute;
-   
+   right:20%;
     top: 50%;
     z-index: 0;
     -webkit-transform: translateY(-50%);
@@ -3672,7 +3670,7 @@ span.type::after {
     background: #D82204;
 }
 .header_2 .topbar-item {
-    right: 50px;
+    right: 220px;
     top: 22px;
 }
 .sc-card-product.explode .card-title.line2 h5 {
@@ -3748,11 +3746,12 @@ span.type::after {
 }
 .news-list > li:hover,
 .news-list > li.active {
-    border:1px solid #5142FC;
+    border:1px solid #5142FC; 
 }
+.news-list > li.active h6{font-weight: 700;}
 .news-list > li h6 {
-    font-size:14px;
-    font-weight: 700;
+    font-size:16px;
+    font-weight: 600;
     color:#1F1F2C;
     line-height: 24px;
 }
@@ -4331,3 +4330,4 @@ span.type::after {
         top: calc(50% - 80px);
     }
 }
+
