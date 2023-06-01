@@ -2503,6 +2503,7 @@ header{
     line-height: 120%;
     margin-top:30px;
     word-break: keep-all;
+    margin-right: 20px;
 }
 #footer {
     padding: 100px 0 80px;
@@ -3769,14 +3770,14 @@ span.type::after {
 }
 .news-list > li {
     width: calc(100% - 10px);
-    margin-bottom: 22px;
+    margin-bottom: 15px;
     background-color: #fff;
     border:1px solid #F2F2F2;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    padding: 0 25px;
-    height: 60px;
+    padding: 15px 25px;
+    /* height: 60px; */
     justify-content: center;
     position: relative;
     box-shadow: 0 2px 6px rgba(47, 83, 109, 0.1);
@@ -3794,6 +3795,7 @@ span.type::after {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-bottom: 5px;
 }
 .news-list > li div {
     display: flex;
@@ -4060,11 +4062,11 @@ span.type::after {
     background:var(--primary-color3);
     color: var(--primary-color);
 }
-/*.box {
+.user-box {
     position: absolute;
     top: 18px;
     right: 20px
-}*/
+}
 .btn-dropdown {
     padding: 0 18px;
     border: none !important;
@@ -4195,7 +4197,7 @@ span.type::after {
   
 }
 @media only screen and (max-width: 1199px) {
-    .box {
+    .user-box {
         display:none;
     }
  
@@ -4407,8 +4409,19 @@ span.type::after {
     .tf-section .crop-message {
         top: calc(50% - 200px);
     }
+    .ranking-number .ranking-infor h5 {
+        font-size: 32px;
+    }
 }
 @media only screen and (max-width: 575px) {
+    .main-event .event .content p {
+        font-size: 20px !important;
+        padding:0 20px;
+      }
+      .main-event .content .event-button {
+        height: 45px !important;
+        line-height: 20px !important;
+      }
 
 }
 
@@ -4436,10 +4449,17 @@ overflow: hidden;}
     text-align: center;
     line-height: 130%;
     letter-spacing: 0;
-    font-weight: 600;}
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
-    .main-event .event  .content p{font-size: 24px;margin-bottom: 10px;
-        text-align: center;}
+    .main-event .event  .content p{
+        font-size: 24px;
+        margin-bottom: 10px;
+        word-break: keep-all;
+        text-align: center;
+        line-height:24px;
+    }
 
         .main-event    .content .event-button {
             display: inline-block;
